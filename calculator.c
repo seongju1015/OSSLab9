@@ -12,11 +12,25 @@ int menu() {
 }
 
 void addition(){
-    //여기에 구현해주세요!
+	int n1, n2;
+	printf("\nEnter number 1> ");
+	scanf("%d",&n1);
+	printf("\Enter number 2> ");
+	scanf("%d",&n2);
+
+	printf("Result is: %d\n", n1+n2);
 }
 
 void subtraction(){
     //여기에 구현해주세요!
+	int n1, n2;
+	printf("\nEnter number 1> ");
+	scanf("%d", &n1);
+	printf("Enter number 2> ");
+        scanf("%d",&n2);
+
+        printf("Result is: %d\n", n1-n2);
+
 }
 
 void multiplication() {
@@ -27,7 +41,7 @@ void multiplication() {
     printf("Enter number 2 > ");
     scanf("%d", &n2);
 
-    printf("result is: %d\n", n1*n2);
+    printf("Result is: %d\n", n1*n2);
 }
 
 void division() {
@@ -40,7 +54,7 @@ void division() {
     scanf("%d", &n2);
 
     result = (n1*1.0)/(n2*1.0);
-    printf("result is: %.1f\n", result);
+    printf("Result is: %.1f\n", result);
 }
 
 int main(void) {
