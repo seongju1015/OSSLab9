@@ -18,7 +18,7 @@ void addition(){
 	printf("\Enter number 2> ");
 	scanf("%d",&n2);
 
-	printf("result is: %d\n", n1+n2);
+	printf("Result is: %d\n", n1+n2);
 }
 void subtraction(){
 	int n1, n2;
@@ -27,7 +27,7 @@ void subtraction(){
 	printf("Enter number 2> ");
 	scanf("%d",&n2);
 
-	printf("result is: %d\n", n1-n2);
+	printf("Result is: %d\n", n1-n2);
 }
 
 void multiplication() {
@@ -38,7 +38,7 @@ void multiplication() {
     printf("Enter number 2 > ");
     scanf("%d", &n2);
 
-    printf("result is: %d\n", n1*n2);
+    printf("Result is: %d\n", n1*n2);
 }
 void division() {
     int n1, n2;
@@ -50,7 +50,7 @@ void division() {
     scanf("%d", &n2);
 
     result = (n1*1.0)/(n2*1.0);
-    printf("result is: %.1f\n", result);
+    printf("Result is: %.1f\n", result);
 }
 
 int main(void) {
