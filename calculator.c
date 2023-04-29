@@ -12,10 +12,11 @@ int menu() {
 }
 
 void addition(){
-
+    //여기에 구현해주세요!
 }
-void subtraction(){
 
+void subtraction(){
+    //여기에 구현해주세요!
 }
 
 void multiplication() {
@@ -28,6 +29,7 @@ void multiplication() {
 
     printf("result is: %d\n", n1*n2);
 }
+
 void division() {
     int n1, n2;
     float result=0.0;
