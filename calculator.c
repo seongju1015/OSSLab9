@@ -20,14 +20,17 @@ void addition(){
 
 	printf("Result is: %d\n", n1+n2);
 }
+
 void subtraction(){
+    //여기에 구현해주세요!
 	int n1, n2;
 	printf("\nEnter number 1> ");
 	scanf("%d", &n1);
 	printf("Enter number 2> ");
-	scanf("%d",&n2);
+        scanf("%d",&n2);
 
-	printf("Result is: %d\n", n1-n2);
+        printf("Result is: %d\n", n1-n2);
+
 }
 
 void multiplication() {
@@ -40,6 +43,7 @@ void multiplication() {
 
     printf("Result is: %d\n", n1*n2);
 }
+
 void division() {
     int n1, n2;
     float result=0.0;
